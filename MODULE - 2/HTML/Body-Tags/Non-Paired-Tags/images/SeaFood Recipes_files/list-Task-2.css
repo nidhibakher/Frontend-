@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(11, 149, 234);
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 30px;
+    width: 35px;
+}

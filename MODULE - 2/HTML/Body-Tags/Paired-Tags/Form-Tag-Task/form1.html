@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body style="background-color: burlywood;">
+        <!-- 
+        
+        INPUT 
+
+        => TYPE 
+        => REQUIRED 
+        => PATTERN
+        => TITLE 
+        => NAME
+        => VALUE
+        =>PLACEHOLDER
+        
+        ==> ATTRIBUTES OF OPTION TAG
+    HIDDEN
+    SELECTED
+    DISABLE  -->
+       <!-- methods:
+   1. get  (default) 
+   ==> shows data in URL 
+   ==> its not secure
+   ==> limited data
+   2. post
+   ==> it doesnt show data in url
+   ==> itssecure
+   ==> unlimited data  -->
+
+    <h1 align="center"><u><i>Registation Form</i></u></h1><br>
+
+    <form align="center" action="Basic_Tags.html.html" method="post">
+
+     NAME: <input type="text" required="" pattern="[a-zA-Z]+" title="Alfabates Only..!!" placeholder="EnterName"><br><br>
+
+     MOBLIE: <input type="text" required="" pattern="[0-9]{10}+" title="Digits Only..!!" placeholder="EnterMoblieNum"><br><br>
+
+     EMAIL: <input type="email" required="" title="Email id..!!" placeholder="EnterEmail"><br><br>
+
+     PASSWORD: <input type="password" name="PASSWORD" required="" title="EnterPassword"><br><br>
+
+     DOB: <input type="datetime-local" required="" title="EnterBirthdate"><br><br>
+
+     Date: <input type="date"><br><br>
+
+     ADDRESS: <textarea name=""  cols="30" rows="10"></textarea><br><br>
+
+     GENDER: <input type="radio" name="GENDER">MALE
+             <input type="radio" name="GENDER">FEMALE <br><br>
+
+     FAV COLOR: <input type="color"><br><br>
+
+     QUNATITY:<input type="number"><br><br>
+
+     RANGE: <input type="range"><br><br>
+
+     LANGUAGES: <input type="checkbox">English
+                <input type="checkbox">Gujarati
+                <input type="checkbox">Hindi 
+                <br><br>
+
+                <input type="submit" name="submit">
+                <input type="reset" name="reset">
+
+
+
+     
+    </form>
+</body>
+</html>

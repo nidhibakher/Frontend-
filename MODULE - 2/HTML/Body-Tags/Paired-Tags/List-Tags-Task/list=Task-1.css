@@ -1,0 +1,37 @@
+body{
+    background-color: lightskyblue;
+    
+}
+
+ul li{
+    list-style-type: none;
+    text-transform: none;
+}
+h1{
+    color: aliceblue;
+    font-size: 42px;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    height: 150px;
+    width: 70%;
+    font-size: 17px;
+    color:gray ;
+    font-weight: bold;
+    padding: 5px;
+    margin:auto;
+    background-color: rgb(232, 232, 15);
+    border: 5px white solid;
+    border-radius: 50px;
+}
+li{
+    background-color: bisque;
+    color: gray;
+    font-size: 20px;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 42%;
+    height: 30px;
+}
